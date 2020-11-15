@@ -1,6 +1,6 @@
 rwtk.py
 
-Program name: random_word.py
+Program name: rwtk.py
 Program Creator: promontorycoder
 
 Purpose of Program: 
