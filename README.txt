@@ -23,4 +23,16 @@ python3
     sudo apt-get install -y python3
     
 tkinter
-    sudo apt-get install -y python3-tk        
+    sudo apt-get install -y python3-tk 
+
+________________________________________________________________________________
+
+GIT CLONE LINK
+________________________________________________________________________________
+
+# To git clone into the repository folder, enter the following command into 
+# Terminal after navigating from within Terminal to the folder you'd like the
+# program folder to be cloned to.
+
+git clone https://github.com/promontorycoder/random_word_list_tkinter.git
+       
