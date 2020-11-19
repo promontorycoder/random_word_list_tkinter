@@ -1,0 +1,13 @@
+                   'Random Passoword String Generator' 
+                    Author: promontorycoder 
+                    Author Email: promontorycoder@tutanota.com 
+                    GitHub: https://github.com/promontorycoder 
+
+Passphrase Words generated on November 18, 2020 at 11:27 PM
+
+enviably
+fountain
+cadet
+suburb
+ruse
+unleash

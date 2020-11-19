@@ -23,6 +23,7 @@ Result4 = StringVar()
 Result5 = StringVar()
 Result6 = StringVar()
 
+
 def AllCallbacks():
     Callback1()
     Callback2()
@@ -125,6 +126,27 @@ def Callback6():
     pword.append(secrets.choice(words))
     
     Result6.set(str(pword[0].strip()))
+    
+    
+def Callback7():
+    new_file = str('new_pword_list.txt')
+    
+    date = time.strftime('%B %d, %Y')
+    clock_time = time.strftime('%I:%M %p')
+    phrase1 = ("                   'Random Passoword String Generator' \n" + 
+        "                    Author: promontorycoder \n" + 
+        "                    Author Email: promontorycoder@tutanota.com \n" +
+        "                    GitHub: https://github.com/promontorycoder \n" +
+        "\nPassphrase Words generated on ")
+    phrase2 = " at "
+        
+    new_string = (Result1.get() + "\n" + Result2.get() + "\n" + Result3.get() + 
+        "\n" + Result4.get() + "\n" + Result5.get() + "\n" + Result6.get())
+        
+    doc_write = (phrase1 + date + phrase2 + clock_time + "\n\n" + new_string)
+    
+    with open(new_file, 'w') as file_object:
+        file_object.write(doc_write)
 
 def Exit():
     exit()
@@ -171,6 +193,9 @@ B7 = Button(root, font = 'arial 10 bold', text = 'EXIT', width=6,
 
 B8 = Button(root, font = 'arial 10 bold', text = 'Generate All', width=25, 
     command = AllCallbacks, bg = 'forest green', padx=2).place(x=60, y=275)
+    
+B9 = Button(root, font = 'arial 10 bold', text = 'Print All', width=25,
+    command = Callback7, bg = 'forest green', padx=2).place(x=300, y=275)
     
 root.mainloop()
 
