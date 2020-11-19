@@ -6,6 +6,8 @@ Program Creator: promontorycoder
 Purpose of Program: 
     Randomly choose six words from a 7,000 english word list for creating unique
     passphrases that are very secure
+    
+    Print passphrase list to text file if option to print chosen
         
     Creator used to help with python and tkinter learning.
 
