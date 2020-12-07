@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Random Word Generator
+Categories=Utilities
+Exec=/home/Path/To/Your/Programs/random_word/rwtk.py
+Icon=/home/Path/To/Your/Programs/random_word/keys02.jpeg
+Terminal=false
